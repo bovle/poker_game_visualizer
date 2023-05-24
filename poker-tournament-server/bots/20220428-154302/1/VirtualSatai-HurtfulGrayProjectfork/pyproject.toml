@@ -1,0 +1,15 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool]
+[tool.poetry]
+authors = ["Frederik Børsting Lund <frederik.bl@live.dk>"]
+description = ""
+name = "poker-dev-env"
+version = "0.1.0"
+[tool.poetry.dependencies]
+poker-game-runner = "^0.1.14"
+python = "^3.8"
+trading-bots = "^0.5.3"
+[tool.poetry.dev-dependencies]
